@@ -1,0 +1,32 @@
+# Wordpress - ignore core, configuration, examples, uploads and logs.
+# modified from https://github.com/github/gitignore/blob/main/WordPress.gitignore
+
+
+# Example themes
+/themes/twenty*/
+index.php
+/languages
+
+# Example plugin
+/plugins/hello.php
+
+# Uploads
+uploads/
+
+# Log files
+*.log
+
+# htaccess
+/.htaccess
+
+# All plugins
+#
+# Note: If you wish to whitelist plugins,
+# uncomment the next line
+#/plugins
+
+# All themes
+#
+# Note: If you wish to whitelist themes,
+# uncomment the next line
+#/themes
